@@ -1,0 +1,36 @@
+body {
+  background-color: #f4f2f1;
+}
+/* ====================== */
+/* Home  */
+/* ====================== */
+.sectionHome .container {
+  font-weight: bold;
+  padding: 110px 0px 110px;
+  margin-bottom: 110px;
+}
+
+.sectionHome p {
+  text-transform: uppercase;
+}
+.sectionHome .p-name {
+  font-family: "Expletus Sans", cursive;
+  font-size: 30px !important;
+}
+
+.sectionHome .p-title {
+  color: grey;
+  font-size: 16.18;
+}
+
+#scrollNavbar {
+  top: -90px  ;
+  transition: top 0.5s !important;
+}
+
+/* ======================= */
+/*About */
+/* ======================= */
+.sectionAbout{
+    
+}
