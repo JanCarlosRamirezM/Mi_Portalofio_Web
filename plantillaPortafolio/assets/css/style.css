@@ -1,36 +1,90 @@
 body {
   background-color: #f4f2f1;
 }
+h1,
+h2 {
+  font-family: "Righteous", cursive;
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(65, 57, 57);
+}
+
+/* ====================== */
+/* Header  */
+/* ====================== */
+.navbar-brand p {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+  color: #1cb698;
+}
+.headerLogoTexto {
+  border-bottom: 1px solid #1cb698;
+}
+
 /* ====================== */
 /* Home  */
 /* ====================== */
 .sectionHome .container {
   font-weight: bold;
-  padding: 110px 0px 110px;
+  padding: 200px 1px 110px;
   margin-bottom: 110px;
 }
 
-.sectionHome p {
-  text-transform: uppercase;
-}
+/* Info */
 .sectionHome .p-name {
-  font-family: "Expletus Sans", cursive;
+  font-family: "Righteous", cursive;
   font-size: 30px !important;
+  text-transform: capitalize;
+  margin: 0px;
+  color: #1cb698;
 }
 
 .sectionHome .p-title {
   color: grey;
+  text-transform: uppercase;
   font-size: 16.18;
 }
 
 #scrollNavbar {
-  top: -90px  ;
+  top: -150px;
   transition: top 0.5s !important;
 }
 
 /* ======================= */
 /*About */
 /* ======================= */
-.sectionAbout{
-    
+.sectionAbout {
+  padding: 110px 0px 110px;
+}
+
+/* Circle img */
+.sectionAbout .container .row img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #666;
+}
+
+/* ======================= */
+/*Skills */
+/* ======================= */
+.progress {
+  background-color: rgba(17, 17, 17, 0.603);
+}
+
+.progress-bar {
+  background-color: #1cb698;
+}
+.progress {
+  margin-bottom: 20px !important;
+}
+.skillTitle {
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+/* ======================= */
+/* Work Experience */
+/* ======================= */
+.sectionWork {
+  margin-top: 100px;
 }

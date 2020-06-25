@@ -9,6 +9,8 @@ function scrollFunction() {
         document.documentElement.scrollTop > 20) {
         document.getElementById("scrollNavbar").style.top = "0px";
     } else {
-        document.getElementById("scrollNavbar").style.top = "-90px";
+        document.getElementById("scrollNavbar").style.top = "-150px";
     }
 }
+
+
