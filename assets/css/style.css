@@ -36,12 +36,12 @@ html {
 /* ====================== */
 /* Home  */
 /* ====================== */
-  .img-fluid {
+  .imgHome {
     max-width: 50%;
     height: auto;
   }
 @media (max-width: 992px) {
-  .img-fluid {
+  .imgHome {
     max-width: 60%;
     height: auto;
   }
