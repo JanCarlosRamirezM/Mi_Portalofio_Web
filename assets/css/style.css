@@ -38,8 +38,9 @@ html {
 /* ====================== */
 .sectionHome .container {
   font-weight: bold;
-  padding: 130px 21px 110px;
-  margin-bottom: 200px;
+  position: relative;
+  top: 150px;
+  margin-bottom: 400px;
 }
 
 /* Info */
