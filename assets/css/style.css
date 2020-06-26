@@ -55,12 +55,12 @@ html {
   font-weight: bold;
   position: relative;
   top: 150px;
-  margin-bottom: 480px;
+  margin-bottom: 340px;
 }
 
 @media (max-width: 992px) {
   .sectionHome .container {
-    margin-bottom: 300px;
+    margin-bottom: 225px;
   }
 }
 
@@ -664,4 +664,15 @@ header {
 .arrow:nth-child(3) {
   opacity: 0.9;
   top: 75%;
+}
+
+
+/* ======================= */
+/* Desactivar seleccionar texto */
+/* ======================= */
+body{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
