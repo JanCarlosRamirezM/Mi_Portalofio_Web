@@ -36,10 +36,10 @@ html {
 /* ====================== */
 /* Home  */
 /* ====================== */
-  .imgHome {
-    max-width: 50%;
-    height: auto;
-  }
+.imgHome {
+  max-width: 50%;
+  height: auto;
+}
 @media (max-width: 992px) {
   .imgHome {
     max-width: 60%;
@@ -55,7 +55,13 @@ html {
   font-weight: bold;
   position: relative;
   top: 150px;
-  margin-bottom: 400px;
+  margin-bottom: 480px;
+}
+
+@media (max-width: 992px) {
+  .sectionHome .container {
+    margin-bottom: 300px;
+  }
 }
 
 /* Info */
@@ -81,10 +87,6 @@ html {
 /* ======================= */
 /*About */
 /* ======================= */
-.sectionAbout {
-  padding: 110px 0px 110px;
-}
-
 /* Circle img */
 .sectionAbout .container .row img {
   width: 250px;
@@ -113,9 +115,6 @@ html {
 /* ======================= */
 /* Work Experience */
 /* ======================= */
-.sectionWork {
-  margin-top: 100px;
-}
 
 /* ======================= */
 /* Portfolio */
