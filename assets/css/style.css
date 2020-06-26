@@ -36,6 +36,17 @@ html {
 /* ====================== */
 /* Home  */
 /* ====================== */
+.img-fluid {
+  margin: 0px !important;
+  padding: 0px !important;
+  top: 0px !important;
+  bottom: 0px !important;
+}
+
+.sectionHome {
+  height: 100% !important;
+}
+
 .sectionHome .container {
   font-weight: bold;
   position: relative;
