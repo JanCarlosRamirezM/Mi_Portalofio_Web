@@ -22,499 +22,605 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+<body>
 
-<!-- ======================  -->
-<!-- Header -->
-<!-- ======================  -->
-<header>
-    <nav id="scrollNavbar" class="navbar navbar-expand-lg navbar-light bg-light p-3  fixed-top">
+    <!-- ======================  -->
+    <!-- Loader -->
+    <!-- ======================  -->
+    <div id="IDloaderContainer" class="loaderContainer">
+        <div class="load">
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+        </div>
+    </div>
+    <!-- ======================  -->
+    <!-- End - Loader -->
+    <!-- ======================  -->
+
+    <!-- ======================  -->
+    <!-- Header -->
+    <!-- ======================  -->
+    <header id="header">
+        <nav id="scrollNavbar" class="navbar navbar-expand-lg navbar-light bg-light p-3  fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <p class="headerLogoTexto">JRM</p>
+                </a>
+
+
+                <button id="navbarToggler" class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#header">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ======================  -->
+    <!--End - Header -->
+    <!-- ======================  -->
+
+    <!-- ======================  -->
+    <!--Home -->
+    <!-- ======================  -->
+    <section class="sectionHome">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <p class="headerLogoTexto">JRM</p>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Habilidades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <img src="assets/img/homeImg.svg" width="600" class="img-fluid">
+                </div>
+
+                <div class="col-12 mt-5 text-center">
+                    <p class="p-name">Hola, soy Jan Carlos Ramirez M.</p>
+                    <p class="p-title">INGENIERO EN SISTEMAS | DESARROLADOR WEB Y MOVIL | freelancer 😎</p>
+                    <!-- Scroll Down Button  -->
+                    <a href="#about" class="arrow-container">
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                    </a>
+
+                </div>
             </div>
         </div>
-    </nav>
-</header>
-<!-- ======================  -->
-<!--End - Header -->
-<!-- ======================  -->
 
-<!-- ======================  -->
-<!--Home -->
-<!-- ======================  -->
-<section class="sectionHome">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <img src="assets/img/homeImg.svg" width="600" class="img-fluid">
-            </div>
-            
-            <div class="col-12 mt-5 text-center">
-                <p class="p-name">Hola, soy Jan Carlos Ramirez M.</p>
-                <p class="p-title">INGENIERO EN SISTEMAS | DESARROLADOR WEB Y MOVIL | freelancer 😎</p>
-            </div>
-        </div>
-    </div>
 
-    <!-- Scroll Down Button  -->
+    </section>
+    <!-- ======================  -->
+    <!--End-Home -->
+    <!-- ======================  -->
 
-</section>
-<!-- ======================  -->
-<!--End-Home -->
-<!-- ======================  -->
+    <!-- ======================  -->
+    <!--About -->
+    <!-- ======================  -->
+    <section id="about" class="sectionAbout">
 
-<!-- ======================  -->
-<!--About -->
-<!-- ======================  -->
-<section class="sectionAbout">
+        <div class="container">
+            <h2 class="title1 m-5 ">Sobre mí</h2>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img class="img-fluid rounded-circle "
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" alt="">
+                </div>
+                <div class="col-md-6 text-center mt-3">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias deserunt officia rerum rem
+                        pariatur
+                        corrupti ad necessitatibus fugiat perspiciatis tenetur ut exercitationem atque praesentium
+                        eveniet
+                        accusantium assumenda in voluptates voluptas molestias, cum provident ducimus iure! Perspiciatis
+                        dolorem totam laboriosam earum neque facilis quibusdam delectus unde incidunt facere labore
+                        beatae
+                        possimus eaque et, ducimus blanditiis, voluptates fugit voluptatem recusandae voluptas dolores
+                        aut.
+                        Veritatis ullam, tempora nesciunt alias esse labore voluptas sunt eveniet nihil fuga vel
+                        architecto
+                        earum perferendis repellat expedita! Earum quia, sit eum quas doloremque totam dolorem
+                        reiciendis
+                        eaque maxime. Libero quis officia soluta nisi illum aliquam reprehenderit, hic est?</p>
 
-    <div class="container">
-        <h2 class="title1 m-5 ">Sobre mí</h2>
-        <div class="row">
-            <div class="col-md-6 d-flex justify-content-center">
-                <img class="img-fluid rounded-circle " src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                    alt="">
-            </div>
-            <div class="col-md-6 text-center mt-3">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias deserunt officia rerum rem pariatur
-                    corrupti ad necessitatibus fugiat perspiciatis tenetur ut exercitationem atque praesentium eveniet
-                    accusantium assumenda in voluptates voluptas molestias, cum provident ducimus iure! Perspiciatis
-                    dolorem totam laboriosam earum neque facilis quibusdam delectus unde incidunt facere labore beatae
-                    possimus eaque et, ducimus blanditiis, voluptates fugit voluptatem recusandae voluptas dolores aut.
-                    Veritatis ullam, tempora nesciunt alias esse labore voluptas sunt eveniet nihil fuga vel architecto
-                    earum perferendis repellat expedita! Earum quia, sit eum quas doloremque totam dolorem reiciendis
-                    eaque maxime. Libero quis officia soluta nisi illum aliquam reprehenderit, hic est?</p>
-
-                <svg class="bi bi-bootstrap" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M12 1H4a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4z" />
-                    <path fill-rule="evenodd"
-                        d="M8.537 12H5.062V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396zM6.375 4.658v2.467h1.558c1.16 0 1.764-.428 1.764-1.23 0-.78-.569-1.237-1.541-1.237H6.375zm1.898 6.229H6.375V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z" />
-                </svg>
-                <svg class="bi bi-bootstrap" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M12 1H4a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4z" />
-                    <path fill-rule="evenodd"
-                        d="M8.537 12H5.062V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396zM6.375 4.658v2.467h1.558c1.16 0 1.764-.428 1.764-1.23 0-.78-.569-1.237-1.541-1.237H6.375zm1.898 6.229H6.375V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z" />
-                </svg>
-                <svg class="bi bi-bootstrap" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M12 1H4a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4z" />
-                    <path fill-rule="evenodd"
-                        d="M8.537 12H5.062V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396zM6.375 4.658v2.467h1.558c1.16 0 1.764-.428 1.764-1.23 0-.78-.569-1.237-1.541-1.237H6.375zm1.898 6.229H6.375V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z" />
-                </svg>
+                    <svg class="bi bi-bootstrap" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12 1H4a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4z" />
+                        <path fill-rule="evenodd"
+                            d="M8.537 12H5.062V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396zM6.375 4.658v2.467h1.558c1.16 0 1.764-.428 1.764-1.23 0-.78-.569-1.237-1.541-1.237H6.375zm1.898 6.229H6.375V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z" />
+                    </svg>
+                    <svg class="bi bi-bootstrap" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12 1H4a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4z" />
+                        <path fill-rule="evenodd"
+                            d="M8.537 12H5.062V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396zM6.375 4.658v2.467h1.558c1.16 0 1.764-.428 1.764-1.23 0-.78-.569-1.237-1.541-1.237H6.375zm1.898 6.229H6.375V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z" />
+                    </svg>
+                    <svg class="bi bi-bootstrap" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12 1H4a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4z" />
+                        <path fill-rule="evenodd"
+                            d="M8.537 12H5.062V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396zM6.375 4.658v2.467h1.558c1.16 0 1.764-.428 1.764-1.23 0-.78-.569-1.237-1.541-1.237H6.375zm1.898 6.229H6.375V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z" />
+                    </svg>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-</section>
-<!-- ======================  -->
-<!--End - About -->
-<!-- ======================  -->
+        </div>
+    </section>
+    <!-- ======================  -->
+    <!--End - About -->
+    <!-- ======================  -->
 
-<!-- ======================  -->
-<!-- Skills -->
-<!-- ======================  -->
-<section class="sectionSkills">
-    <div class="container">
-        <h2 class="text-center m-5 ">Habilidades</h2>
-        <div class="row ">
-            <div class="col-md-6 m-auto">
-                <h2>Habilidades técnicas</h2>
+    <!-- ======================  -->
+    <!-- Skills -->
+    <!-- ======================  -->
+    <br id="skills">
+    <br>
+    <br>
+    <section class="sectionSkills">
+        <div class="container">
+            <h2 class="text-center m-5 ">Habilidades</h2>
+            <div class="row ">
+                <div class="col-md-6 m-auto">
+                    <h2>Habilidades técnicas</h2>
 
-                <span class="skillTitle">HTML y CSS</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated
+                    <span class="skillTitle">HTML y CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated
                     " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                        <span class="porcentaje">75 %</span>
+                            <span class="porcentaje">75 %</span>
+                        </div>
                     </div>
-                </div>
 
-                <span class="skillTitle">HTML y CSS</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated
+                    <span class="skillTitle">HTML y CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated
                     " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                        <span class="porcentaje">75 %</span>
+                            <span class="porcentaje">75 %</span>
+                        </div>
                     </div>
-                </div>
 
-                <span class="skillTitle">HTML y CSS</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated
+                    <span class="skillTitle">HTML y CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated
                     " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                        <span class="porcentaje">75 %</span>
+                            <span class="porcentaje">75 %</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-6 m-auto">
-                <h2>Habilidades profesionales</h2>
-                <span class="skillTitle">HTML y CSS</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated
+                <div class="col-md-6 m-auto">
+                    <h2>Habilidades profesionales</h2>
+                    <span class="skillTitle">HTML y CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated
                                     " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 75%">
-                        <span class="porcentaje">75 %</span>
+                            style="width: 75%">
+                            <span class="porcentaje">75 %</span>
+                        </div>
                     </div>
-                </div>
-                <span class="skillTitle">HTML y CSS</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated
+                    <span class="skillTitle">HTML y CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated
                                     " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 75%">
-                        <span class="porcentaje">75 %</span>
+                            style="width: 75%">
+                            <span class="porcentaje">75 %</span>
+                        </div>
                     </div>
-                </div>
-                <span class="skillTitle">HTML y CSS</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated
+                    <span class="skillTitle">HTML y CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated
                                     " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 75%">
-                        <span class="porcentaje">75 %</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-<!-- ======================  -->
-<!--End - Skills -->
-<!-- ======================  -->
-
-<!-- ======================  -->
-<!-- Work Experience -->
-<!-- ======================  -->
-<section class="sectionWork">
-
-    <div class="container py-2">
-        <h2 class="m-5">experiencia laboral</h2>
-
-        <div class="container py-2">
-
-            <!-- timeline item 1 -->
-            <div class="row no-gutters">
-                <div class="col-sm">
-                    <!--spacer-->
-                </div>
-                <!-- timeline item 1 center dot -->
-                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-                    <div class="row h-50">
-                        <div class="col">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                    <h5 class="m-2">
-                        <span class="badge badge-pill bg-light border">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-right">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
-                    </div>
-                </div>
-                <!-- timeline item 1 event content -->
-                <div class="col-sm py-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="float-right text-muted small">Jan 9th 2019 7:00 AM</div>
-                            <h4 class="card-title text-muted">Day 1 Orientation</h4>
-                            <p class="card-text">Welcome to the campus, introduction and get started with the tour.</p>
+                            style="width: 75%">
+                            <span class="porcentaje">75 %</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--/row-->
-            <!-- timeline item 2 -->
-            <div class="row no-gutters">
-                <div class="col-sm py-2">
-                    <div class="card border-success shadow">
-                        <div class="card-body">
-                            <div class="float-right text-success small">Jan 10th 2019 8:30 AM</div>
-                            <h4 class="card-title text-success">Day 2 Sessions</h4>
-                            <p class="card-text">Sign-up for the lessons and speakers that coincide with your course
-                                syllabus.
-                                Meet and greet with instructors.</p>
-                            <button class="btn btn-sm btn-outline-secondary" type="button" data-target="#t22_details"
-                                data-toggle="collapse">Show Details ▼</button>
-                            <div class="collapse border" id="t22_details">
-                                <div class="p-2 text-monospace">
-                                    <div>08:30 - 09:00 Breakfast in CR 2A</div>
-                                    <div>09:00 - 10:30 Live sessions in CR 3</div>
-                                    <div>10:30 - 10:45 Break</div>
-                                    <div>10:45 - 12:00 Live sessions in CR 3</div>
-                                </div>
+        </div>
+
+    </section>
+    <!-- ======================  -->
+    <!--End - Skills -->
+    <!-- ======================  -->
+
+    <!-- ======================  -->
+    <!-- Work experience -->
+    <!-- ======================  -->
+    <br id="experience">
+    <br>
+    <br>
+    <section class="sectionWork">
+
+        <div class="container py-2">
+            <h2 class="m-5">experiencia laboral</h2>
+
+            <div class="container py-2">
+
+                <!-- timeline item 1 -->
+                <div class="row no-gutters">
+                    <div class="col-sm">
+                        <!--spacer-->
+                    </div>
+                    <!-- timeline item 1 center dot -->
+                    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                        <div class="row h-50">
+                            <div class="col">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge badge-pill bg-light border">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-right">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <!-- timeline item 1 event content -->
+                    <div class="col-sm py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-right text-muted small">Jan 9th 2019 7:00 AM</div>
+                                <h4 class="card-title text-muted">Day 1 Orientation</h4>
+                                <p class="card-text">Welcome to the campus, introduction and get started with the tour.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-                    <div class="row h-50">
-                        <div class="col border-right">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
+                <!--/row-->
+                <!-- timeline item 2 -->
+                <div class="row no-gutters">
+                    <div class="col-sm py-2">
+                        <div class="card border-success shadow">
+                            <div class="card-body">
+                                <div class="float-right text-success small">Jan 10th 2019 8:30 AM</div>
+                                <h4 class="card-title text-success">Day 2 Sessions</h4>
+                                <p class="card-text">Sign-up for the lessons and speakers that coincide with your course
+                                    syllabus.
+                                    Meet and greet with instructors.</p>
+                                <button class="btn btn-sm btn-outline-secondary" type="button"
+                                    data-target="#t22_details" data-toggle="collapse">Show Details ▼</button>
+                                <div class="collapse border" id="t22_details">
+                                    <div class="p-2 text-monospace">
+                                        <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                        <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                        <div>10:30 - 10:45 Break</div>
+                                        <div>10:45 - 12:00 Live sessions in CR 3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h5 class="m-2">
-                        <span class="badge badge-pill bg-success">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-right">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
+                    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                        <div class="row h-50">
+                            <div class="col border-right">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge badge-pill bg-success">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-right">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <!--spacer-->
                     </div>
                 </div>
-                <div class="col-sm">
-                    <!--spacer-->
-                </div>
-            </div>
-            <!--/row-->
-            <!-- timeline item 3 -->
-            <div class="row no-gutters">
-                <div class="col-sm">
-                    <!--spacer-->
-                </div>
-                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-                    <div class="row h-50">
-                        <div class="col border-right">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
+                <!--/row-->
+                <!-- timeline item 3 -->
+                <div class="row no-gutters">
+                    <div class="col-sm">
+                        <!--spacer-->
                     </div>
-                    <h5 class="m-2">
-                        <span class="badge badge-pill bg-light border">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col border-right">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
+                    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                        <div class="row h-50">
+                            <div class="col border-right">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge badge-pill bg-light border">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col border-right">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm py-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="float-right text-muted small">Jan 11th 2019 8:30 AM</div>
-                            <h4 class="card-title">Day 3 Sessions</h4>
-                            <p>Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level
-                                irony
-                                ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch,
-                                mumblecore PBR
-                                try-hard kale chips. Brooklyn vinyl lumbersexual
-                                bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache.</p>
+                    <div class="col-sm py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-right text-muted small">Jan 11th 2019 8:30 AM</div>
+                                <h4 class="card-title">Day 3 Sessions</h4>
+                                <p>Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next
+                                    level
+                                    irony
+                                    ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch,
+                                    mumblecore PBR
+                                    try-hard kale chips. Brooklyn vinyl lumbersexual
+                                    bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--/row-->
-            <!-- timeline item 4 -->
-            <div class="row no-gutters">
-                <div class="col-sm py-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="float-right text-muted small">Jan 12th 2019 11:30 AM</div>
-                            <h4 class="card-title">Day 4 Wrap-up</h4>
-                            <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                <!--/row-->
+                <!-- timeline item 4 -->
+                <div class="row no-gutters">
+                    <div class="col-sm py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-right text-muted small">Jan 12th 2019 11:30 AM</div>
+                                <h4 class="card-title">Day 4 Wrap-up</h4>
+                                <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-                    <div class="row h-50">
-                        <div class="col border-right">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
+                    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                        <div class="row h-50">
+                            <div class="col border-right">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
+                        <h5 class="m-2">
+                            <span class="badge badge-pill bg-light border">&nbsp;</span>
+                        </h5>
+                        <div class="row h-50">
+                            <div class="col">&nbsp;</div>
+                            <div class="col">&nbsp;</div>
+                        </div>
                     </div>
-                    <h5 class="m-2">
-                        <span class="badge badge-pill bg-light border">&nbsp;</span>
-                    </h5>
-                    <div class="row h-50">
-                        <div class="col">&nbsp;</div>
-                        <div class="col">&nbsp;</div>
+                    <div class="col-sm">
+                        <!--spacer-->
                     </div>
                 </div>
-                <div class="col-sm">
-                    <!--spacer-->
-                </div>
+                <!--/row-->
             </div>
-            <!--/row-->
-        </div>
-</section>
-<!-- ======================  -->
-<!-- End Work Experience -->
-<!-- ======================  -->
+    </section>
+    <!-- ======================  -->
+    <!-- End Work Experience -->
+    <!-- ======================  -->
 
-<!-- ======================  -->
-<!-- Projects-->
-<!-- ======================  -->
-<section id="portfolio" class="portfolio">
-    <div class="container">
-        <h2 class="mt-5">Portfolio</h2>
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center">
-                <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
-                    <li data-filter=".filter-card">Card</li>
-                    <li data-filter=".filter-web">Web</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>App 1</h4>
-                    <p>App</p>
-                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
+    <!-- ======================  -->
+    <!-- Projects-->
+    <!-- ======================  -->
+    <br id="portfolio">
+    <br>
+    <br>
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="mt-5">Portafolio</h2>
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-web">Web</li>
+                        <li data-filter=".filter-app">App</li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>Web 3</h4>
-                    <p>Web</p>
-                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
-                </div>
-            </div>
+            <div class="row portfolio-container">
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>App 2</h4>
-                    <p>App</p>
-                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>App 1</h4>
+                        <p>App</p>
+                        <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery"
+                            class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>Card 2</h4>
-                    <p>Card</p>
-                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                        <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery"
+                            class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>Web 2</h4>
-                    <p>Web</p>
-                    <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>App 2</h4>
+                        <p>App</p>
+                        <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery"
+                            class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>App 3</h4>
-                    <p>App</p>
-                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web 2</h4>
+                        <p>Web</p>
+                        <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery"
+                            class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>Card 1</h4>
-                    <p>Card</p>
-                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>App 3</h4>
+                        <p>App</p>
+                        <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery"
+                            class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>Card 3</h4>
-                    <p>Card</p>
-                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                        <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery"
+                            class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                    <h4>Web 3</h4>
-                    <p>Web</p>
-                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery"
-                        class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                            class="bx bx-link"></i></a>
-                </div>
             </div>
 
         </div>
-
-    </div>
-</section>
-<!-- ======================  -->
-<!-- End Projects-->
-<!-- ======================  -->
+    </section>
+    <!-- ======================  -->
+    <!-- End Projects-->
+    <!-- ======================  -->
 
 
+    <!-- ======================  -->
+    <!-- Contact-->
+    <!-- ======================  -->
+    <br id="contact">
+    <br>
+    <br>
+    <br>
+    <section class="contact">
+        <div class="container">
 
-<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+            <div class="section-title">
+                <h2 class="mt-3">Contact </h2>
+                <p class="text-center">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Tu nombre</label>
+                                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
+                                    data-msg="Por favor ingrese al menos 4 caracteres" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Tu Email</label>
+                                <input type="email" class="form-control" name="email" id="email" data-rule="email"
+                                    data-msg="Por favor introduzca una dirección de correo electrónico válida" />
+                                <div class="validate"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Mensaje</label>
+                            <textarea class="form-control" name="message" rows="10" data-rule="required"
+                                data-msg="Por favor escribe algo para nosotros"></textarea>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="loading">Cargando</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Enviar Mensaje Message</button></div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ======================  -->
+    <!-- End- Contact-->
+    <!-- ======================  -->
+    <!-- ======================  -->
+    <!-- Footer-->
+    <!-- ======================  -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row  justify-content-center">
+                    <div class="col-lg-6">
+                        <h3>JRM</h3>
+                        <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe
+                            commodi placeat.</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>JRM</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by <a target="_blank" href="https://github.com/JanCarlosRamirezM">JanCarlosRamirezM ❤️️. </a>
+            </div>
+        </div>
+    </footer>
+    <!-- ======================  -->
+    <!-- End- Footer-->
+    <!-- ======================  -->
 
 
-<!-- ======================  -->
-<!--  Vendor JS Files -->
-<!-- ======================  -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script src="assets/vendor/counterup/counterup.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/venobox/venobox.min.js"></script>
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
 
-<!-- ======================  -->
-<!-- Template Main JS File-->
-<!-- ======================  -->
-<script src="assets/js/scripts.js"></script>
+    <!-- ======================  -->
+    <!--  Vendor JS Files -->
+    <!-- ======================  -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+    <!-- ======================  -->
+    <!-- Template Main JS File-->
+    <!-- ======================  -->
+    <script src="assets/js/scripts.js"></script>
+</body>
 
 </html>
